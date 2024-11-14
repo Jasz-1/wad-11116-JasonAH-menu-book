@@ -98,9 +98,94 @@ margin:0px;
 	height: Hug (453.25px)px;
 	gap: 32px;
 	opacity: 0px;
+	display: flex;
+}
+
+.price{
+	display: inline;
+}
+img{
+	width: 100%;
+	gap: 0px;
+	opacity: 0px;
+
+}
+.priceText{
+	gap: 0px;
+	opacity: 0px;
+}
+.menuDesc{
+	width: Fill (257.25px)px;
+	height: Fixed (64px)px;
+	padding: 0px 16px 16px 16px;
+	gap: 0px;
+	opacity: 0px;
+}
+.menuList{
+	display:block;
+	width: Fill (257.25px)px;
+	height: Hug (453.25px)px;
+	padding: 0px 0px 32px 0px;
+	gap: 0px;
+	opacity: 0px;
+
+}
+.menuText{
+	font-family: Barlow;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: center;
+}
+.menuDesc{
+	font-family: Barlow;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.25px;
+	text-align: center;
+}
+
+.priceNumber{
+	font-family: Barlow;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: right;
+}
+
+.priceText{
+	font-family: Barlow;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.25px;
+	text-align: left;
+	justify-content: right;
+}
+
+.menu{
+	display:flex;
+	width: 100%;
+	gap: 32px;
+	opacity: 0px;
+}
+.menuList{
+	padding: 0px 0px 32px 0px;
+	gap: 0px;
+	opacity: 0px;
+	flex:1;
 }
 
 
+.cafe{
+	margin: 0;
+    padding: 0;
+}
 
-
+p {
+    margin: 0;
+    padding: 0;
+    color: rgba(66, 66, 66, 1);
+}
 </style>
