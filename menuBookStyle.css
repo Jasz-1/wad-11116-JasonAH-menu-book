@@ -11,8 +11,7 @@ margin:0px;
 }
 
 .cafe{
-	width: Fill (1,125px)px;
-	height: Hug (60px)px;
+	width: 100%;
 	padding: 16px 0px 0px 0px;
 	gap: 16px;
 	opacity: 0px;
@@ -32,7 +31,6 @@ margin:0px;
     padding: 0;
 }
 
-
 .food img{
 	width : 100%;
 	height: 707px;
@@ -42,8 +40,7 @@ margin:0px;
 }
 
 .menuIntro{
-	width: Fill (1,125px)px;
-	height: Hug (224px)px;
+	width: 100%;
 	padding: 64px 16px 64px 16px;
 	gap: 8px;
 	opacity: 0px;
@@ -102,7 +99,8 @@ margin:0px;
 }
 
 .price{
-	display: inline;
+	display:flex;
+	align-items: center;
 }
 img{
 	width: 100%;
@@ -144,6 +142,7 @@ img{
 	line-height: 20px;
 	letter-spacing: 0.25px;
 	text-align: center;
+	height:64px;
 }
 
 .priceNumber{
@@ -152,6 +151,10 @@ img{
 	font-weight: 400;
 	line-height: 28px;
 	text-align: right;
+	justify-content: right;
+	margin-right:16px;
+	margin-top:4px;
+	margin-bottom:4px;
 }
 
 .priceText{
@@ -162,6 +165,10 @@ img{
 	letter-spacing: 0.25px;
 	text-align: left;
 	justify-content: right;
+	width:100%;
+	margin-left:16px;
+	margin-top:4px;
+	margin-bottom:4px;
 }
 
 .menu{
@@ -187,5 +194,11 @@ p {
     margin: 0;
     padding: 0;
     color: rgba(66, 66, 66, 1);
+}
+.cafe{
+	padding: 16px;
+}
+.titleText{
+	color: rgba(249, 246, 243, 1);
 }
 </style>
