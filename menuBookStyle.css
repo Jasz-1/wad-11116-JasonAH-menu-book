@@ -91,8 +91,7 @@ margin:0px;
 }
 
 .menu{
-	width: Fill (1,125px)px;
-	height: Hug (453.25px)px;
+	width: 100%;
 	gap: 32px;
 	opacity: 0px;
 	display: flex;
@@ -113,16 +112,14 @@ img{
 	opacity: 0px;
 }
 .menuDesc{
-	width: Fill (257.25px)px;
-	height: Fixed (64px)px;
+	height: 64px;
 	padding: 0px 16px 16px 16px;
 	gap: 0px;
 	opacity: 0px;
 }
 .menuList{
 	display:block;
-	width: Fill (257.25px)px;
-	height: Hug (453.25px)px;
+	width: 100%;
 	padding: 0px 0px 32px 0px;
 	gap: 0px;
 	opacity: 0px;
